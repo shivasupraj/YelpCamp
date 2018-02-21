@@ -6,8 +6,6 @@ var express     = require("express"),
     LocalStrategy = require("passport-local"),
     User         = require("./models/user"),
     methodOverride = require("method-override"),
-   // Campground  = require("./models/campground"),
-   // Comment     = require("./models/comment"),
     seedDB      = require("./seeds")
     
 var commentRoutes = require("./routes/comments"),
